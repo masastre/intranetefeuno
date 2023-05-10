@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EFE UNO CERRO LARGO</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        margin: 0;
+      }
+
+      .nav1 {
+        background-color: navy;
+        height: 80px;
+        display: flex;
+        align-items: center;
+      }
+
+      .nav1 img {
+        width: 150px;
+        margin-left: 20px;
+      }
+
+      .nav2 {
+        background-color: #444;
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .menu {
+        background-color: #f2f2f2;
+        padding: 20px;
+        flex-basis: 200px;
+      }
+
+      .menu ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .menu li {
+        margin-bottom: 10px;
+      }
+
+      .menu a {
+        color: black;
+        text-decoration: none;
+        font-size: 18px;
+      }
+
+      .content {
+        padding: 20px;
+        flex: 1;
+        background-color: #fff;
+        display: flex;
+        flex-wrap: wrap;
+      }
+
+      .content iframe {
+        width: 50%;
+        height: 600px;
+      }
+
+      main {
+        margin: 0 20px;
+        padding: 20px;
+        margin-left: 200px;
+      }
+
+      #reproductor {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        z-index: 9999;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="nav1">
+      <img src="https://tilop.ceibal.edu.uy/k2b/static/Resources/K2BOrionERP/K2BLogotipo.png" alt="Logo Plan Ceibal Uruguay">
+    </div>
+    <div class="nav2">
+      <div class="menu">
+        <ul>
+          <li><a href="https://tilop.ceibal.edu.uy/" target="_blank">Tilop</a></li>
+          <li><a href="https://mail.google.com/mail/u/0/#inbox" target="_blank">Correo corporativo</a></li>
+          <li><a href="https://web.whatsapp.com/" target="_blank">Whatsapp</a></li>
+          <li><a href="https://ceibal.schoology.com/home" target="_blank">Crea Acceso Tecnico</a></li>
+          <li><a href="https://wiki.ceibal.edu.uy/" target="_blank">Wiki Ceibal</a></li>
+          <li><a href="https://desbloqueo.ceibal.edu.uy/Magallanes-Clamshell" target="_blank">Boot Tick</a></li>
+          <li><a href="https://ceibal.edu.uy/institucional/articulos/desbloqueo-de-positivo/" target="_blank">Desbloqueo BGH</a></li>
+
+
+
+        </ul>
+      </div>
+      <div class="content">
+        <iframe src="https://www.elpais.com.uy/ultimas-noticias" frameborder="0"></iframe>
+        <iframe src="https://azulfm.com.uy/" frameborder="0"></iframe>
+      </div>
+    </div>
+    <div id="reproductor">
+      <iframe src="https://azul-1.nty.uy/" width="300" height="60" frameborder="0" allowtransparency="true" scrolling="no" autoplay></iframe>
+    </div>
+  </body>
+  </html>
